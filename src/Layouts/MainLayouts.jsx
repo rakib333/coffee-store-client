@@ -1,9 +1,14 @@
+import { Outlet } from "react-router-dom";
+import Header from "../pages/SharedPages/Header/Header";
+import Footer from "../pages/SharedPages/Footer/Footer";
 
 
 const MainLayouts = () => {
     return (
         <div>
-            <h2>This is main layout</h2>
+            <Header />
+            <Outlet />
+            <Footer />
         </div>
     );
 };
