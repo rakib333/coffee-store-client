@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.full-wrapper {
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 1140px;
+  width: 98%;
+  margin: 0 auto;
+}
